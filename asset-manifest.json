@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/naedev/static/css/main.36e905a5.css",
+    "main.js": "/naedev/static/js/main.dcdd5848.js",
+    "static/media/bg.mp4": "/naedev/static/media/bg.2a24de0b83fa0e2eaa24.mp4",
+    "static/media/bg2.mp4": "/naedev/static/media/bg2.00f04c499d3e20363308.mp4",
+    "static/media/NAEA.png": "/naedev/static/media/NAEA.105f0cbee413ecb4d537.png",
+    "index.html": "/naedev/index.html",
+    "main.36e905a5.css.map": "/naedev/static/css/main.36e905a5.css.map",
+    "main.dcdd5848.js.map": "/naedev/static/js/main.dcdd5848.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.36e905a5.css",
+    "static/js/main.dcdd5848.js"
+  ]
+}
