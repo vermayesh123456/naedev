@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import NAE from '../asset/NAEA.png';
+import './nav.css'
 
 const Nav = () => {
   const [isNavbarOpen, setIsNavbarOpen] = useState(false);
@@ -10,7 +11,7 @@ const Nav = () => {
   };
 
   return (
-    <nav className="navbar navbar-expand-lg" style={{position:'sticky',top:"0%"}}>
+    <nav  className="navbar navbar-expand-lg" style={{position:'sticky',top:"0%"}}>
       <Link to="/" className="navbar-brand mx-5">
         <img src={NAE} style={{ width: '80px', background: 'white', borderRadius: '50%' }} alt="" />
       </Link>
@@ -34,9 +35,9 @@ const Nav = () => {
             </Link>
           </li>
           <li className="nav-item">
-            <Link to="/student-list" className="nav-link bg-white rounded-5 px-4 mx-3 my-1">
-              Results
-            </Link>
+          <Link to="/student-list" className="nav-link bg-white rounded-5 px-4 mx-3 my-1 bouncing-button">
+            Results
+          </Link>
           </li>
         </ul>
       </div>

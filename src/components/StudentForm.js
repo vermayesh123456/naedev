@@ -9,12 +9,16 @@ const StudentForm = (props) => {
   const arr = [name, email, rollno];
 
   return (
-    <div className="container">
+    <div className="containerr">
       <div className="row mt-5">
         <div className="col-lg-12 text-center mx-auto">
           <div className="text">
             <p style={{fontSize:"80px",fontWeight:"900",position:"relative"}} className="text-white font-weight-bold mb-2">We are <span style={{color:"rgb(0, 255, 85)"}}>NAE club</span></p>
-            <p style={{width:'25vw',margin:"0 auto"}} className=" text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, totam. Content Team Need to be Active Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, blanditiis?</p>
+            <p style={{width:'50vw',margin:"0 auto"}} className=" text-white">Nature Adaptation Ecology, often abbreviated as NAE, is a passionate and dynamic club
+committed to fostering a deeper understanding of the natural world and advocating for its
+conservation. Founded with a vision of creating a positive impact on society, our organization is
+driven by a shared commitment to environmental stewardship, education, and practical action.
+</p>
           </div>
         </div>
       </div>
