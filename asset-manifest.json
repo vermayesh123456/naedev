@@ -1,16 +1,21 @@
 {
   "files": {
-    "main.css": "/naedev/static/css/main.36e905a5.css",
-    "main.js": "/naedev/static/js/main.dcdd5848.js",
+    "main.css": "/naedev/static/css/main.4e6b6325.css",
+    "main.js": "/naedev/static/js/main.eb5b502e.js",
     "static/media/bg.mp4": "/naedev/static/media/bg.2a24de0b83fa0e2eaa24.mp4",
     "static/media/bg2.mp4": "/naedev/static/media/bg2.00f04c499d3e20363308.mp4",
+    "static/media/EM.jpg": "/naedev/static/media/EM.ee2cb0dccebe2ebf7887.jpg",
+    "static/media/design1.jpg": "/naedev/static/media/design1.6f39b78799113e880088.jpg",
+    "static/media/Vlogo2.png": "/naedev/static/media/Vlogo2.e4a8f23c0baf8ff1a761.png",
     "static/media/NAEA.png": "/naedev/static/media/NAEA.105f0cbee413ecb4d537.png",
+    "static/media/content.png": "/naedev/static/media/content.54fd901b022fcf6a53c3.png",
+    "static/media/marketing.png": "/naedev/static/media/marketing.bd956a07f5a9b2050179.png",
     "index.html": "/naedev/index.html",
-    "main.36e905a5.css.map": "/naedev/static/css/main.36e905a5.css.map",
-    "main.dcdd5848.js.map": "/naedev/static/js/main.dcdd5848.js.map"
+    "main.4e6b6325.css.map": "/naedev/static/css/main.4e6b6325.css.map",
+    "main.eb5b502e.js.map": "/naedev/static/js/main.eb5b502e.js.map"
   },
   "entrypoints": [
-    "static/css/main.36e905a5.css",
-    "static/js/main.dcdd5848.js"
+    "static/css/main.4e6b6325.css",
+    "static/js/main.eb5b502e.js"
   ]
 }
