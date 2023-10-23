@@ -77,7 +77,7 @@
 }
 
 .Main {
-    height: 100vh;
+   
     width: 100%;
     position: relative;
     overflow: auto;
@@ -107,4 +107,9 @@
     color: white;
     border-radius: 60px 0;
   }
+
+ .cards{
+    width: 91vw;
+    margin: 30px auto;
+ }
 

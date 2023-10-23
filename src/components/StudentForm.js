@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
 import './main.css';
 import mainbg from '../asset/bg2.mp4';
+import w1 from '../asset/w1.jpeg'
+import w2 from '../asset/w2.jpeg'
+import w3 from '../asset/w3.jpg'
 
 const StudentForm = (props) => {
   const [name, setName] = useState("");
@@ -22,6 +25,38 @@ driven by a shared commitment to environmental stewardship, education, and pract
           </div>
         </div>
       </div>
+
+    
+      <div class="row row-cols-1 row-cols-md-3 g-4 cards">
+  <div class="col">
+    <div class="card h-100">
+      <img src={w1} class="card-img-top" alt="Skyscrapers"/>
+      <div class="card-body">
+        <h3 class="card-title">Photography Event Winner</h3>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src={w2} class="card-img-top" alt="Los Angeles Skyscrapers"/>
+      <div class="card-body">
+        <h3 class="card-title">Photography Event Winner</h3>
+      </div>
+      
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <img src={w3} class="card-img-top" alt="Palm Springs Road"/>
+      <div class="card-body">
+      <h3 class="card-title">Photography Event Winner</h3>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 
       <div className="Main">
         <div className="video-container">

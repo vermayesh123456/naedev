@@ -11,7 +11,7 @@ const Nav = () => {
   };
 
   return (
-    <nav  className="navbar navbar-expand-lg" style={{position:'sticky',top:"0%"}}>
+    <nav  className="navbar navbar-expand-lg" style={{position:'sticky',top:"0%",zIndex:"20"}}>
       <Link to="/" className="navbar-brand mx-5">
         <img src={NAE} style={{ width: '80px', background: 'white', borderRadius: '50%' }} alt="" />
       </Link>
