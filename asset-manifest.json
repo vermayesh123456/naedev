@@ -1,12 +1,14 @@
 {
   "files": {
-    "main.css": "/naedev/static/css/main.babc1e8f.css",
-    "main.js": "/naedev/static/js/main.f22f1438.js",
+    "main.css": "/naedev/static/css/main.78edb788.css",
+    "main.js": "/naedev/static/js/main.cdfef6cd.js",
     "static/media/bg.mp4": "/naedev/static/media/bg.2a24de0b83fa0e2eaa24.mp4",
     "static/media/bg2.mp4": "/naedev/static/media/bg2.00f04c499d3e20363308.mp4",
     "static/media/EM.jpg": "/naedev/static/media/EM.ee2cb0dccebe2ebf7887.jpg",
+    "static/media/leaf.jpg": "/naedev/static/media/leaf.b1056b008c3c516f54b6.jpg",
     "static/media/w2.jpeg": "/naedev/static/media/w2.ff788cc9e8b97ac386ac.jpeg",
     "static/media/design1.jpg": "/naedev/static/media/design1.6f39b78799113e880088.jpg",
+    "static/media/maam.png": "/naedev/static/media/maam.3dd021c44f2ccf9e64a0.png",
     "static/media/w1.jpeg": "/naedev/static/media/w1.434c404da8b7e75d6c6c.jpeg",
     "static/media/w3.jpg": "/naedev/static/media/w3.32037f896157fe5f4b48.jpg",
     "static/media/Vlogo2.png": "/naedev/static/media/Vlogo2.e4a8f23c0baf8ff1a761.png",
@@ -14,11 +16,11 @@
     "static/media/content.png": "/naedev/static/media/content.54fd901b022fcf6a53c3.png",
     "static/media/marketing.png": "/naedev/static/media/marketing.bd956a07f5a9b2050179.png",
     "index.html": "/naedev/index.html",
-    "main.babc1e8f.css.map": "/naedev/static/css/main.babc1e8f.css.map",
-    "main.f22f1438.js.map": "/naedev/static/js/main.f22f1438.js.map"
+    "main.78edb788.css.map": "/naedev/static/css/main.78edb788.css.map",
+    "main.cdfef6cd.js.map": "/naedev/static/js/main.cdfef6cd.js.map"
   },
   "entrypoints": [
-    "static/css/main.babc1e8f.css",
-    "static/js/main.f22f1438.js"
+    "static/css/main.78edb788.css",
+    "static/js/main.cdfef6cd.js"
   ]
 }
