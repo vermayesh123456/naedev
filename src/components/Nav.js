@@ -30,12 +30,22 @@ const Nav = () => {
       <div className={`collapse navbar-collapse ${isNavbarOpen ? 'show' : ''}`} id="navbarNav">
         <ul className="navbar-nav ml-auto" style={{position:'absolute',right:'50px'}}>
           <li className="nav-item">
-            <Link to="/create-student" className="nav-link bg-white rounded-5 px-4 mx-3 my-1">
+            <Link to="/create-student" className="nav-link  rounded-5 px-4 mx-3 my-1">
               Home
             </Link>
           </li>
           <li className="nav-item">
-          <Link to="/student-list" className="nav-link bg-white rounded-5 px-4 mx-3 my-1 bouncing-button">
+          <Link to="/about-us" className="nav-link  rounded-5 px-4 mx-3 my-1">
+              About
+            </Link>
+          </li>
+          <li className="nav-item">
+          <Link to="/members" className="nav-link  rounded-5 px-4 mx-3 my-1">
+              Members
+            </Link>
+          </li>
+          <li className="nav-item">
+          <Link to="/student-list" className="nav-link  rounded-5 px-4 mx-3 my-1 bouncing-button">
             Results
           </Link>
           </li>

@@ -26,7 +26,8 @@ const Footer = () => {
           <div className="col-md-3">
             <h5>Faculty coordinator</h5>
             <p>Dr. Premalatha L</p>
-            <p>Phone: +91 737-343-8656</p>
+            {/* <p>Phone: +91 737-343-8656</p> */}
+            
             
            
           </div>

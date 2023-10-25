@@ -1,0 +1,30 @@
+@keyframes moveLeftToRight {
+    0% {
+      transform: translateX(-100%);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes changeColor {
+    0% {
+      color: red;
+    }
+    50% {
+      color: blue;
+    }
+    100% {
+      color: green;
+    }
+  }
+  
+  .moving-text {
+    animation: moveLeftToRight 4s linear infinite;
+    white-space: nowrap;
+  }
+  
+  .color-changing-text {
+    animation: changeColor 4s linear infinite;
+  }
+  
