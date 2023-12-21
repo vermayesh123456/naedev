@@ -4,6 +4,7 @@ import mainbg from '../asset/bg2.mp4';
 import w1 from '../asset/w1.jpeg'
 import w2 from '../asset/w2.jpeg'
 import w3 from '../asset/w3.jpg'
+import NatureCard from './NatureCard';
 
 const StudentForm = (props) => {
   const [name, setName] = useState("");
@@ -27,7 +28,9 @@ driven by a shared commitment to environmental stewardship, education, and pract
       </div>
 
     
-      <div class="row row-cols-1 row-cols-md-3 g-4 cards">
+    <div style={{}}><NatureCard/></div>
+
+      {/* <div class="row row-cols-1 row-cols-md-3 g-4 cards">
   <div class="col">
     <div class="card h-100">
       <img src={w1} class="card-img-top" alt="Skyscrapers"/>
@@ -53,7 +56,7 @@ driven by a shared commitment to environmental stewardship, education, and pract
       </div>
     </div>
   </div>
-</div>
+</div> */}
 
 
 
@@ -79,7 +82,7 @@ driven by a shared commitment to environmental stewardship, education, and pract
           <input
             onChange={(event) => setEmail(event.target.value)}
             className="form-control mb-3"
-            type="email"
+            type="text"
             placeholder="Your Favourite Part about Club"
             style={{background:'rgba(255, 255, 255, 0.37)',border:'none'}}
           />
